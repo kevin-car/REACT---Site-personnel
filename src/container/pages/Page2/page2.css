@@ -1,0 +1,58 @@
+
+.page2{
+    position: relative; 
+}
+
+.imageBackground {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    height: auto;
+    opacity: 0.1;
+}
+
+.colonnes{
+    column-count : 3;
+    column-width: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5rem;
+    column-gap: 2em;
+    vertical-align: top;   
+    column-rule: 1px solid rgb(75, 70, 74);
+    z-index: 6 !important;
+}
+
+.colonnes p {
+    text-align: justify;
+    border-radius: 10px;
+    margin-top: 0;
+    opacity: 100% !important;
+    position: static;
+    z-index: 10;
+}
+
+
+
+
+
+@media  (max-width : 1200px) {
+    .colonnes{
+        column-count: 2;
+    }
+}
+
+@media  (max-width : 992px) {
+    .colonnes{
+        column-count: 1;
+    }
+}
+
+@media  (max-width : 800px) {
+    .colonnes{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+

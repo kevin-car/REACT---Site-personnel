@@ -1,0 +1,161 @@
+/* Placement des 2 blocs  */
+.meContacter{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Formulaire  */
+.formulaire{
+    width: 50%;
+}
+
+.formulaire>form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+
+}
+
+
+
+/* Les titres */
+.formulaire>form>label {
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    color: #DAD4D4;
+    margin-left: 10px;
+}
+
+/* Les champs de saisies */
+.formulaire>form>input {
+    border-radius: 15px;
+    color: #B387AB;;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #DAD4D4;
+    width: 100%;
+    height: 50px;
+    opacity: 80%;
+    padding-left: 20px;
+}   
+.titreLabel {
+    text-transform:uppercase;
+}
+.mail{
+    text-transform: lowercase;
+}
+
+/* Champ de saisie du message  */
+.form-control{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #DAD4D4;
+    opacity: 80%;
+    color: #B387AB;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+/* Bouton Valider */
+.boutonSubmit{
+    color: rgb(0, 0, 0) !important;
+    height: 40px !important;
+    text-align: center;
+    padding : 0 !important ;
+    width: 25% !important;
+    margin-left: 37.5% !important;
+    border-radius: 10px !important;
+    margin-top: 10px;
+    font-weight: 900;
+    
+}
+
+.boutonSubmit:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 1000px) {
+    .formulaire{
+        width: 100%;
+    }
+    .formulaire>form{
+        margin-right: 5% ;
+        margin-left: 5% ;
+    }
+
+    .boutonSubmit{
+        color: rgb(0, 0, 0) !important;
+        height: 40px !important;
+        background-color: #A1DCA3 !important;
+        margin-left: 20%;
+    }
+    .meContacter{
+        flex-direction: column;
+    }
+    .liens{
+        margin-top: 100px;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+    }
+    .liens>ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center !important;
+        justify-content: center !important;
+        padding-left: 0;
+    }
+  }
+
+
+  @media (max-width: 1000px) and (min-width: 800px) {
+    .formulaire{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10% !important;
+    }
+    .formulaire>form{
+        margin-right: 10% !important;
+        margin-left: 10% ;
+    }
+
+    .formulaire>form>input {
+        width: 80%;
+    }   
+    .form-control{
+        width: 80%;
+        margin-right: 20%;
+    }
+    .boutonSubmit{
+        margin-right: 2% !important;
+
+    }
+  }
+
+  .liens{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .liens>ul{
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+      list-style-type: none !important;
+
+  }
+  .liens>ul>li>a>img{
+    background-color: #DAD4D4;
+    max-height: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,7 @@
+.imgBackground {
+    position: static;
+    z-index: 10;
+    max-width: 40%;
+    height: auto;    
+}
+

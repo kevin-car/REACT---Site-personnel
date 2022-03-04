@@ -1,0 +1,133 @@
+.header{
+    border-bottom:  white solid ;
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    }
+
+.nom{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6px;
+}
+
+
+.menus{
+  background-color: aquamarine;
+}
+
+
+.developpeurDispo{
+    font-size : 1.5rem;
+    border: solid 2px white;
+    border-radius: 10px ;
+    font-weight: 2;
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+    white-space:nowrap;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 2px;
+    display: inline-block;                /* modèle de boîte en ligne */
+    white-space: nowrap;                  /* pas de passage à la ligne */   
+
+}
+/* Effet de défilement du message developpeur disponible */
+.defilement{
+  display: flex;
+}
+.menuResponsive {
+  width: 100%;
+  animation: slideIn 1s normal ;
+  position: relative;
+}
+/* Fermer le menu responsive si on repasse à plus de 800px */
+
+
+.txt{
+  animation: defilement 4s linear infinite ;
+}
+
+@keyframes defilement {
+  0%{
+    transform: translate(0%, 0);
+  }
+  100%{
+    transform: translate(-100%, 0);
+  }
+}
+
+/* Le point qui est de le texte qui défile */
+.pointVert{
+    color: #65D269;
+    font-size: 1.5rem;
+}
+
+.navbar{
+  padding-top: 0 !important;
+}
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0%;  
+  }
+  to{
+    opacity: 100%;  
+  }    
+
+}
+
+.titreMenu{
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  height: max-content;
+  background-color: #242424  ;
+  top: 20px;
+  
+  z-index: 1;
+  
+  position: fixed;
+  width: 100%;
+}
+
+.titreMenu a{
+  padding-right: 0;
+  margin-right: 0;
+  margin-top: 5 px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-decoration: none ;
+}
+
+/* VERSION MOBILE */
+
+@media all and (max-width: 800px){
+  .developpeurDispo{
+    display: none;
+  }
+
+}
+
+/* Fermer la liste déroulante lorsqu'on repasse au dessus de 800px */
+@media all and (min-width: 800px){
+  .titreMenu{
+    display: none;
+    position: relative;
+  }
+
+}

@@ -1,0 +1,22 @@
+.main{
+    background-color: #242424 ;    
+    color : rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,42 @@
+.barreScroll{
+    position: fixed;
+    left: 7%;
+    transform: translate(0px, -72.5px);
+    top: 50%;
+    z-index: 1;
+}
+
+.barreScroll > a {
+    margin: 0 !important;
+    padding: 0 !important;
+    z-index: 1;
+    position: static;
+    width: 15px;
+    height: 15px;
+}
+
+@media screen and (max-width: 800px)  {
+    .barreScroll{
+        display: none;
+    }
+    
+}
+
+.cercle {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    border: 3px white solid;
+    background-color: #000000;
+/*     margin: -1px;
+ */position: relative;
+}
+
+
+.barreVertical{
+    border-left: 1.5px solid #FFFFFF; 
+    height: 60px; 
+    text-align: center;
+    transform: translate(10px, 0px);
+    position: relative;
+}

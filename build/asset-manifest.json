@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/kevin-car/vitrine/static/css/main.718f1aa5.css",
+    "main.js": "/kevin-car/vitrine/static/js/main.a4a42af3.js",
+    "static/media/Image_de_fond.jpg": "/kevin-car/vitrine/static/media/Image_de_fond.826fd457506f70940dc6.jpg",
+    "static/media/orinoco.png": "/kevin-car/vitrine/static/media/orinoco.c0b284d12c7c70d2f122.png",
+    "static/media/sass.png": "/kevin-car/vitrine/static/media/sass.95b95881f872d00e7e7b.png",
+    "static/media/formikyup.jpg": "/kevin-car/vitrine/static/media/formikyup.e62a25a34650023e194f.jpg",
+    "static/media/postman.jpg": "/kevin-car/vitrine/static/media/postman.fecbf495d6eaf12589c1.jpg",
+    "static/media/ohmyfood.jpg": "/kevin-car/vitrine/static/media/ohmyfood.95a1a665de02acd96cb1.jpg",
+    "static/media/sequelize.png": "/kevin-car/vitrine/static/media/sequelize.e36c77da53502c736e5f.png",
+    "static/media/react.png": "/kevin-car/vitrine/static/media/react.eb0f58cf7cb8f4d8912b.png",
+    "static/media/soPekocko.png": "/kevin-car/vitrine/static/media/soPekocko.cfaa92bd1f3448a1b84b.png",
+    "static/media/APIREST.png": "/kevin-car/vitrine/static/media/APIREST.5ceb12590d321b8ead14.png",
+    "static/media/frontend.png": "/kevin-car/vitrine/static/media/frontend.7e5fe6b4bfe698202e0f.png",
+    "static/media/javascript.jpg": "/kevin-car/vitrine/static/media/javascript.91b6e0577d076ca8d424.jpg",
+    "static/media/mongodb.webp": "/kevin-car/vitrine/static/media/mongodb.16ffc934e5d3c20601a2.webp",
+    "static/media/figma.webp": "/kevin-car/vitrine/static/media/figma.a36461c811a3ff07f2cd.webp",
+    "index.html": "/kevin-car/vitrine/index.html",
+    "main.718f1aa5.css.map": "/kevin-car/vitrine/static/css/main.718f1aa5.css.map",
+    "main.a4a42af3.js.map": "/kevin-car/vitrine/static/js/main.a4a42af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.718f1aa5.css",
+    "static/js/main.a4a42af3.js"
+  ]
+}

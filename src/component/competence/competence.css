@@ -1,0 +1,19 @@
+.competenceCible>img{
+    max-width: 300px;
+    max-height: 200px;
+    display: flex;
+}
+
+.competenceCible{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .competenceCible{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+}

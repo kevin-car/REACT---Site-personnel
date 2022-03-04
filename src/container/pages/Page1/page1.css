@@ -1,0 +1,19 @@
+
+
+/* .page1{
+} */
+
+.titleBiographie{
+    padding-top: 90px;
+    font-size: 3rem;
+}
+
+h2{
+    color: #B387AB;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.page1{
+    z-index: 9;
+}
