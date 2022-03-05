@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kevin_carpentier/static/css/main.718f1aa5.css",
-    "main.js": "/kevin_carpentier/static/js/main.d71afbb7.js",
+    "main.js": "/kevin_carpentier/static/js/main.2888d262.js",
     "static/media/Image_de_fond.jpg": "/kevin_carpentier/static/media/Image_de_fond.826fd457506f70940dc6.jpg",
     "static/media/orinoco.png": "/kevin_carpentier/static/media/orinoco.c0b284d12c7c70d2f122.png",
     "static/media/sass.png": "/kevin_carpentier/static/media/sass.95b95881f872d00e7e7b.png",
@@ -18,10 +18,10 @@
     "static/media/figma.webp": "/kevin_carpentier/static/media/figma.a36461c811a3ff07f2cd.webp",
     "index.html": "/kevin_carpentier/index.html",
     "main.718f1aa5.css.map": "/kevin_carpentier/static/css/main.718f1aa5.css.map",
-    "main.d71afbb7.js.map": "/kevin_carpentier/static/js/main.d71afbb7.js.map"
+    "main.2888d262.js.map": "/kevin_carpentier/static/js/main.2888d262.js.map"
   },
   "entrypoints": [
     "static/css/main.718f1aa5.css",
-    "static/js/main.d71afbb7.js"
+    "static/js/main.2888d262.js"
   ]
 }
