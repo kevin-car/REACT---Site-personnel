@@ -82,9 +82,6 @@ class Page5 extends React.Component{
                                     <li>
                                         <a href="https://github.com/kevin-car"><img src={github} alt="" /></a>
                                     </li>
-                                    <li>
-                                        <a href="./CV/CV.pdf" download="CV"><img src={CV} alt="" /></a>
-                                    </li>
                                 </ul>
                             </div>
                     </div>
